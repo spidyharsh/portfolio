@@ -1,0 +1,91 @@
+body
+{
+	background: #4388f7;
+}
+.topnav
+{
+	background-color: #5a6373;
+	height: 1.5cm;
+	width: 100%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 20px white;
+}
+.topnav ul
+{
+	position: relative;
+	top: 0.4cm;
+	list-style: none;
+	text-align: center;
+}
+.topnav ul li
+{
+	display: inline;
+	padding: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+.topnav ul li a
+{
+	text-decoration: none;
+	color : white;
+}
+.topnav ul li a:hover
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.container .row .col-md-12 
+{
+	text-align: center;
+}
+.container .row .col-md-12 img
+{
+	margin-top: 2cm;
+	border-radius: 20px;
+	box-shadow: 10px 10px 15px black;
+}
+.container .row .col-md-12 .blockquote
+{
+	margin-top: 1.5cm;
+}
+.container .navbar 
+{
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.container .card-deck
+{
+	position: relative;
+	top: 1cm;
+	margin-bottom: 1cm;
+}
+.container .card-deck a
+{
+	text-align: center;
+	border-radius: 10px;
+	padding: 8px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
+.container .card-deck a:hover
+{
+	color: white;
+	padding: 8px;
+	background-color: black;
+}
+.container .copyright
+{
+	position: relative;
+	top: 1cm;
+	margin-bottom: 1cm;
+	text-align: center;
+}
